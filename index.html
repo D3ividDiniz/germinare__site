@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Germinare</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script defer src="script.js"></script>
+
+
+    <!-- font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body onscroll="changeHeader()">
+    <div class="hall-site">
+        <header class="principal header-general">
+                <nav class="header_nav">
+                    <div id="parte_1">
+                        <img src="./assets/home-assets/logogerminare.png" alt="Logo Germinare" id="logo-germinare">
+                    </div>
+                    <div class="flex">
+                        <img src="./assets/home-assets/ico__search.png" alt="Ícone de Pesquisa" id="icone-pesquisa">
+                        <ul id="parte_2">
+                            <li><a href=""><h5>Home</h5></a></li>
+                            <li><a href=""><h5>Governança</h5></a></li>
+                            <li><a href=""><h5>Acadêmico</h5></a></li>
+                            <li><a href=""><h5>Admissão</h5></a></li>
+                            <li><a href="sobrepage.html"><h5>Sobre</h5></a></li>
+                            <li><a href=""><h5>Notícias</h5></a></li>
+                        </ul>
+                    </div>
+                </nav>
+        </header>
+        <header class="alternativeHeader header-general"  >
+            <nav class="header_nav">
+                <div id="parte_1">
+                    <img src="./assets/home-assets/logogerminare.png" alt="Logo Germinare" id="logo-germinare">
+                </div>
+                <img src="./assets/home-assets/ico__search.png" alt="Ícone de Pesquisa" id="icone-pesquisa">
+                <img style="margin-left: 1.6rem;" src="././assets/home-assets/svg-menu.svg" onclick="openMenu()">
+            </nav>
+        </header>
+        <div class="menu-hidden">
+            <img src="././assets/home-assets/svg-close.svg" onclick="closeMenu()">
+            <ul class="flex">
+                <li><a href=""><h5>Home</h5></a></li>
+                <li><a href=""><h5>Governança</h5></a></li>
+                <li><a href=""><h5>Acadêmico</h5></a></li>
+                <li><a href=""><h5>Admissão</h5></a></li>
+                <li><a href="sobrepage.html"><h5>Sobre</h5></a></li>
+                <li><a href=""><h5>Notícias</h5></a></li>
+            </ul>
+        </div>
+
+        <div id="content-banner">
+            <h1>Bem-vindo ao Instituto Germinare</h1>
+            <p id="header-paragraph">Organização <span style="font-weight: 700;">sem fins lucrativos</span> que oferece uma educação totalmente gratuita com foco principal em formar jovens gestores e líderes para o mercado de trabalho.</p>
+        </div>
+    </div>
+
+    <div id="bigNumber">
+        <div id="geral-bigNumber">
+            <div>
+                <img id="img-bigNumber" src="./assets/home-assets/Union.png" alt="">
+            </div>
+
+            <div>
+                <p id="titulo-bigNumber">+ de 4.500h</p>
+                <p id="descricao-bigNumber">de aulas de administração</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div id="processoAdmissão" class="flex" >
+            <img id="img-processoAdmissao" class="block" src="./assets/home-assets/foto-processo-de-admissao.png" alt="">
+
+            <div id="info-processoAdmissão" class="block">
+                <h3 class="tituloUm" id="titulo-processoAdmissão">Processo de Admissão 2022</h3>
+                <p class="body18" id="content-processoAdmissão">Já pensou em ter seu filho matriculado na melhor escola técnica de São Paulo? Estamos em busca dos apaixonados pelo que fazem, daqueles que priorizam o ‘nós’ e não o ‘eu’. Se você acredita que esse é seu perfil ou que conhece um perfil parecido, clique em ‘Veja Mais’.</p>
+                <button class="btn-backgroundAzul">Veja mais</button>
+            </div>
+            <img id="forma" src="./assets/home-assets/forma.png" alt="">
+        </div>
+    </div>
+
+
+    <div>
+        <div id="jovemAmigo">
+            <div id="jovemExecutivo" class="banner">
+                <h4 class="subtitle">Jovem Executivo</h4>
+                <p class="body18" id="content-jovemExecutivo">Saiba mais sobre o projeto acadêmico da Escola Germinare</p>
+                <button class="btn-backgroundBranco">Abrir página</button>
+            </div>
+
+            <div id="amigoGerminare" class="banner">
+                <h4 class="subtitle">Amigo Germinare</h4>
+                <p class="body18" id="content-amigoGerminare">Caso tenha gostado do projeto, a escola te convida a acreditar no poder da educação e doar. Faça parte desse legado!</p>
+
+                <div class="btn-amigoGerminare">
+                    <button class="btn-backgroundBranco">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="germinatech">
+        <div id="geral-germinatech" class="flex">
+            <div id="content-germinatech" class="block">
+                <h3 class="tituloUm" id="titulo-germinatech">Conheça a Germinatech</h3>
+                <p class="body18" id="conteudo-germinatech">A <span style="color: #15CF74;">GerminaTech</span> – Escola de Desenvolvedores - forma jovens profissionais a partir do 1° ano do Ensino Médio altamente capacitados e preparados para os desafios do mercado de tecnologia da informação.</p>
+                <button class="btn-backgroundAzul">Veja mais</button>
+            </div>
+            <img class="img-tech" src="./assets/home-assets/img-tech.png" alt="imagem alunos germinatech">
+        </div>
+    </div>
+
+    <div id="contato">
+        <div id="geral-contato" class="flex">
+            <div id="form" class="block">
+                <h2 class="tituloUm" id="titulo-contatos">Contato</h2>
+                <form action="">
+                    <div class="informacao">
+                        <label for="Nome" class="label-form">Nome:</label>
+                        <input type="text" placeholder="ex: João dos Santos" class="input-form">
+                    </div>
+                    <div class="informacao">
+                        <label for="E-mail" class="label-form">E-mail:</label>
+                        <input type="text" placeholder="exemplo@dominio.com" class="input-form">
+                    </div>
+                    <div class="informacao">
+                        <label for="Mensagem" class="label-form">Mensagem:</label>
+                        <input type="text" placeholder="ex: matriculei minha filha hoje, e surgiu algumas dúvidas" class="input-form">
+                    </div>
+                    <button type="submit" class="btn-backgroundAzul" id="btn-form">Enviar</button>
+                </form>
+            </div>
+
+            <div id="mapa" class="block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14634.170678169487!2d-46.7317863!3d-23.5129766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc322969008a3e57!2sInstituto%20J%26F!5e0!3m2!1spt-BR!2sbr!4v1669914293894!5m2!1spt-BR!2sbr"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <h3 id="endereco">Endereço</h3>
+                <p id="descricao-endereco">R. Irineu José Bordon - Vila Jaguara, São Paulo - SP, 05120-060</p>
+            </div>
+            <img class="img-contatos" src="././assets/home-assets/svg-ilustracao.svg">
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="geral">
+            <div id="part_1">
+                <img src="./assets/home-assets/logogerminare.png" alt="Logo Germinare" id="logo_germinare">
+                <div id="textos">
+                    <a href="">
+                        <h6>Contato</h6>
+                    </a>
+                    <a href="">
+                        <h6>Sobre</h6>
+                    </a>
+                    <a href="">
+                        <h6>Admissão</h6>
+                    </a>
+                    <a href="">
+                        <h6>Acadêmico</h6>
+                    </a>
+                    <a href="">
+                        <h6>Governança</h6>
+                    </a>
+                    <a href="">
+                        <h6>Notícias</h6>
+                    </a>
+                    <a href="">
+                        <h6>Ética</h6>
+                    </a>
+                </div>
+                <a href="https://pt-br.facebook.com/germinareoficial/">
+                    <img src="./assets/home-assets/logo_facebook.png" alt="Logo Facebook" class="logo_redes">
+                </a>
+                <a href="https://www.youtube.com/@escolagerminare9230/videos">
+                    <img src="./assets/home-assets/logo_youtube.png" alt="Logo YouTube" class="logo_redes">
+                </a>
+                <a href="https://www.instagram.com/escolagerminare/">
+                    <img src="./assets/home-assets/logo_ins.png" alt="Logo Instagram" class="logo_redes">
+                </a>
+            </div>
+
+            <div id="part_2">
+                <h6>© 2022 Escola de Negócios - Instituto Germinare</h6>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

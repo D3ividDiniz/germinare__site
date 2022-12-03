@@ -1,0 +1,373 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+.nav_bar {
+    width: 95%;
+    height: 5.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header_geral {
+    display: flex;
+    align-items: center;
+}
+
+#logo_germinare {
+    max-width: 13.4rem;
+    max-height: 3.4rem;
+    margin: 0 9.22rem 0 6.22rem;
+}
+
+#icone-pesquisa {
+    max-width: 1.25rem;
+    max-height: 1.45rem;
+}
+
+#part_2 {
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    justify-content: space-around;
+    width: 33rem;
+
+}
+
+#part_1 {
+    display: flex;
+    align-items: center;
+    width: 43rem;
+    justify-content: space-between;
+}
+header{
+    background-image: linear-gradient(to bottom , #0E2087, #414FCD);
+    height: 25.64rem;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left_main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0  6.22rem;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: center;
+}
+.rigth_main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 6.22rem 0 0;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: center;
+}
+.left {
+    display: flex;
+    flex-direction:column;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#icon_header {
+    margin: 0;
+    max-width: 15rem;
+    width: 70%;
+}
+.branco {
+    color: #ffffff;
+}
+.title {
+    font-weight: 600;
+    font-size: 4rem;
+}
+.sub1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.section_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 33rem;
+}
+.sub2{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.azul {
+    color:#2F4AE4 ;
+}
+.body_text{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.carrossel{
+    overflow: hidden;
+    width: 31rem;
+    height: 20rem;
+    margin-top: 2rem;
+    border-radius: 1.18rem;
+}
+.container{
+    display: flex;
+    transition: transform 1s ease-in-out;
+    transform: translateX(0);
+}
+.img_container{
+    object-fit: cover;
+    height: 23rem;
+    width: 31rem;
+    border-radius: 1.18rem;
+    margin: 0 0.5rem 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 7% 35% 0 0 ;
+}
+.radio {
+    background-color: #0E2087;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+
+#escolaFamilia, #academias {
+    width: 66rem;
+    height: 13rem;
+    border-radius: 1.4rem;
+    padding: 2.7rem 3rem 2.7rem 3rem;
+}
+#escolaFamilia {
+    background-color: #0e2087;
+    margin: 0 0 0 6.22rem;
+  }
+
+#academias {
+    background: #357CBB;
+    margin: 0 6.22rem 0 0;
+  }
+  #content-escolaFamilia, #content-academias {
+    max-width: 36.55rem;
+    height: 8rem;
+    color: #bac0f9;
+  }
+    
+  .btn-academias {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  .btn-backgroundBranco:not(:hover) {
+    transition-duration: 200ms;
+    padding: 0.5rem 0.7rem;
+    background-color: #ffffff;
+    color: #2127ae;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20rem;
+  }
+  
+  .btn-backgroundBranco:hover {
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+    padding: 0.5rem 0.7rem;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .btn-backgroundTransparente:not(:hover) {
+    transition-duration: 200ms;
+    padding: 0.5rem 0.7rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 20rem;
+  }
+  
+  .btn-backgroundTransparente:hover {
+    color: #0E2087;
+    transition-duration: 200ms;
+    padding: 0.5rem 0.7rem;
+    background-color: #ffffff;
+    border: 2px solid #0E2087;
+    border-radius: 20rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .section_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    background-color: #ffffff;
+    width: 100%;
+    height: 30rem;
+}
+.section_2{
+    display: flex;
+    flex-direction: row;
+}
+.mvv{
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#missao{
+    background-color: #0E2087;
+}
+#visao{
+    background-color: #2127AE;
+}
+#valores{
+    background-color: #4349CF;
+}
+.icon_2{
+    width: 12rem;
+    margin-bottom: 2.4rem;
+}
+.body_text2{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2.3rem;
+    text-align: center;
+    width: 24.2rem;
+}
+.section_4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 30.95rem;
+    background-color: #1C1C1C;
+}
+#amigo_germinare{
+    width: 29.43rem;
+    font-size: 1.25rem;
+    margin: 1.8rem 0 3rem 0;
+}
+#doacao{
+    display: none;
+}
+#amigoGermcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.body_text3{
+    font-size: 0.9rem;
+    width: 14rem;
+    margin-left: 1rem;
+}
+#text_doacao{
+    font-weight: 600;
+    width: 22rem;
+}
+.section_5{
+    width: 100%;
+    height: 25rem;
+    margin-top: 6.22rem;
+}
+#certificados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img_certificado{
+    border-radius: 0.6rem;
+    filter: drop-shadow(0 0.4rem 0.2rem #706363);
+    margin: 4rem 0 0.5rem;
+}
+
+#geral_footer{
+    height: 12rem;
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#part_1_footer {
+    height: 8.6rem;
+    background-color: #201E1E;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#textos_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8.25rem;
+    margin-right: 12rem;
+    gap: 1rem;
+}
+
+#logo_germinare_footer{
+    max-width: 12.75rem;
+    max-height: 4rem;
+    margin: 0 0 0 4.22rem;
+}
+
+.logo_redes {
+    max-width: 13rem;
+    max-height: 2.8rem;
+    margin-left: 1rem;
+}
+
+#part_2_footer {
+    height: 4.3rem;
+    background-color: #191919; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#img_amigoGerm{
+    height: 100%;
+    transition: 0.3s;
+}

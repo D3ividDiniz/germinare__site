@@ -1,0 +1,498 @@
+/* general formatations */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+  overflow-x: hidden;
+}
+
+.tituloUm {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 5.2rem;
+  color: #000e87;
+}
+
+
+.body18 {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
+.subtitle {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.btn-backgroundBranco:not(:hover) {
+  font-family: "Poppins";
+  transition-duration: 150ms;
+  padding: 0.8rem 2.4rem;
+  background-color: #ffffff;
+  color: #2127ae;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 3px solid #2127ae;
+  border-radius: 20rem;
+  align-self:baseline;
+}
+
+.btn-backgroundBranco:hover {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Poppins";
+  transition-duration: 150ms;
+  padding: 0.8rem 2.4rem;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 20rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  align-self:baseline;
+}
+
+.btn-backgroundAzul:not(:hover) {
+  font-family: "Poppins";
+  transition-duration: 150ms;
+  padding: 0.8rem 2.4rem;
+  color: #ffffff;
+  background-color: #0e2087;
+  border-radius: 20rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  border: none;
+  align-self:baseline;
+
+}
+
+.btn-backgroundAzul:hover {
+  font-family: "Poppins";
+  transition-duration: 150ms;
+  padding: 0.8rem 2.4rem;
+  color: #ffffff;
+  background-color: #414fcd;
+  border-radius: 20rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  border: none;
+  align-self:baseline;
+  
+}
+
+.flex{
+  display: flex;
+  gap: 0.8rem
+}
+
+/* header */
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  height: 10rem;
+}
+
+.hall-site{
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  url(assets/home-assets/background-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 10.9rem;
+  justify-content: center;
+  display: flex;
+}
+
+.header-general{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 8.8rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  transition: 0.3s;
+  z-index: 5;
+  
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10.9rem;
+}
+
+#content-banner{
+  align-self:center;
+  width: 100%;
+}
+
+#logo-germinare {
+  max-width: 19.2rem;
+  
+}
+
+#icone-pesquisa {
+  max-width: 2rem;
+  max-height: 3rem;
+}
+
+#parte_2 {
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  justify-content: space-around;
+  width: 54rem;
+
+}
+#parte_2 > li{
+  display: flex;
+  
+}
+
+#parte_1 {
+  display: flex;
+  align-items: center;
+  width: 70.1rem;
+
+}
+
+
+h1 {
+  font-weight: 600;
+  line-height: 8rem;
+  font-size: 6.4rem;
+  max-width: 650px;
+}
+
+#header-paragraph {
+  margin: 3.2rem 0;
+  font-size: 2rem;
+  max-width: 636px;
+}
+
+#img-bigNumber {
+  max-width: 142px;
+  height: 88px;
+}
+
+/* section 1 */
+#bigNumber,
+#jovemAmigo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bigNumber {
+  height: 33vh;
+  background: linear-gradient(rgba(14, 32, 135), rgba(14, 32, 135));
+}
+
+#geral-bigNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#titulo-bigNumber,
+#descricao-bigNumber {
+  font-weight: 600;
+  font-size: 4.8rem;
+}
+
+#descricao-bigNumber {
+  font-size: 2rem;
+}
+
+/* section 2 */
+#jovemAmigo {
+  gap: 5.6rem;
+  flex-wrap: wrap;
+  margin: 6.2rem auto;
+}
+
+.banner {
+  max-width: 530px;
+  height: 29.1rem;
+  border-radius: 2.4rem;
+  padding: 2.7rem 7rem 4.5rem 6rem;
+}
+
+#jovemExecutivo {
+  background-color: #0e2087;
+}
+
+#amigoGerminare {
+  background: linear-gradient(rgba(74, 170, 255), rgba(48, 108, 222));
+}
+
+#content-amigoGerminare,
+#content-jovemExecutivo {
+  max-width: 413px;
+  height: 8rem;
+  color: #bac0f9;
+  margin: 2.4rem auto;
+}
+
+
+/* section 3 */
+
+#img-processoAdmissao {
+  margin-top: 4.9rem;
+  max-width: 682px;
+  max-height: 437px;
+}
+
+#titulo-processoAdmissão,
+#titulo-contatos {
+  width: 100%;
+}
+
+#titulo-contatos{
+    margin-bottom: 1.6rem;
+}
+
+#content-processoAdmissão {
+  margin: 3.2rem 0;
+  max-width: 494px;
+  color: #1c1c1c;
+}
+
+#geral-germinatech {
+  display: flex;
+}
+
+
+
+#processoAdmissão {
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+
+  padding: 8rem 10.9rem;
+  gap: 4.8rem;
+  position: relative;
+}
+
+#forma{
+  top: -10rem;
+  left: calc(100% - 130px);
+  position: absolute;
+
+}
+
+
+/* section 4 */
+
+#germinatech {
+  width: 100%;
+  display: flex;
+  background-color: #141414;
+
+}
+
+#geral-germinatech {
+  justify-content: space-between;
+  align-items: center;
+  gap:40px;
+  display: flex;
+  width: 100%;
+  padding:0 0 0 10.9rem ;
+  height: 100%;
+}
+
+#titulo-germinatech {
+  max-width: 451px;
+  color: #ffffff;
+} 
+
+#content-germinatech{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.img-tech {
+  
+height: 100%;
+  width: 100%;
+}
+
+/* section form */
+#geral-contato {
+  gap: 12.8rem;
+  display: flex;
+  margin: 6rem 10.5rem 7.6rem 11rem;
+  position: relative;
+
+}
+
+
+.label-form {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  width: 70%;
+  color: #2d357b;
+  margin-bottom: 0.8rem;
+}
+
+.input-form {
+  width: 88%;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  outline: none;
+}
+
+iframe {
+  width: 100%;
+  height: 23.5rem;
+  border: 1px solid;
+  color: #0e2087;
+  border-radius: 2.4rem;
+}
+
+#endereco,
+#descricao-endereco {
+  font-size: 1.6rem;
+  width: 60%;
+}
+
+#descricao-endereco {
+  color: #858585;
+  max-width: 512px;
+}
+
+#endereco {
+  color: #2d357b;
+  max-width: 92px;
+  font-weight: 600;
+}
+
+#btn-form {
+  margin: 5.7rem 0 0 36rem;
+}
+
+.block {
+  width: 50%;
+}
+
+.img-contatos{
+  position: absolute;
+  width: 25.8rem;
+  left: calc( 100% - 25.8rem);
+  top: calc(100% + 7.6rem - 31.8rem)
+
+}
+
+option{
+    color: #858585;   
+}
+
+
+
+/* footer */
+footer {
+  height: 19.2rem;
+}
+
+#geral {
+  color: white;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h6, h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+#part_1 {
+  height: 13.8rem;
+  background-color: #201e1e;
+  display: flex;
+  align-items: center;
+}
+
+#textos {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 13.2rem;
+  margin-right: 19.2rem;
+  gap: 1.6rem;
+}
+
+#logo_germinare {
+  max-width: 30rem;
+  max-height: 6.5rem;
+  margin-left: 10.8rem;
+}
+
+.logo_redes {
+  max-width: 21rem;
+  max-height: 4.6rem;
+  margin-left: 1.6rem;
+}
+
+#part_2 {
+  height: 5.4rem;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alternativeHeader{
+  display: none ;
+}
+
+
+.menu-hidden{
+  position: fixed;
+  top: 0;
+  transition: 0.2s;
+  background-color: #1c1c1c;
+  height: 100%;
+  padding: 1.6rem;
+  width: 30%;
+  left: 100%;
+  z-index: 10;
+
+}
+.menu-hidden > ul {
+  height: 100%;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.menu-hidden > img{
+justify-self: flex-start;
+}
